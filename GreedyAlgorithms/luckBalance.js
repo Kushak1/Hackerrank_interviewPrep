@@ -6,6 +6,7 @@ function luckBalance(k, contests) {
         if( contests[i][1] ==0 ){
             luck += contests[i][0];
         }else if( contests[i][1] == 1 && k>0 ){
+            luck += contests[i][0];
             k--;
         }else{ luck-=contests[i][0];}
     }
