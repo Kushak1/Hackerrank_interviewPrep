@@ -17,3 +17,8 @@ for($i=0;$i<count($arr)-1;$i++){
         }  
           
 }
+
+
+return($swaps);
+
+}
